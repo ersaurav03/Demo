@@ -1,0 +1,1 @@
+<?php header( 'Location: /mediaqueriess(4)(3).html' ) ;  ?>
