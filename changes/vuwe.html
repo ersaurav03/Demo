@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSMPJ Corporation</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+</head>
+<body>
+	<div id="app">
+		{{message}}
+
+
+		<ul>
+			<li v-for ='n in [10,9,8,7,6,5,4,3,2,1]' >{{n+10}}
+		</ul>
+	</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+	<script>
+		let app=new Vue({
+			el: '#app',
+			data:
+			{
+				message:'JSMPJ Corporation',
+			}
+		});
+	</script>
+</body>
+</html>

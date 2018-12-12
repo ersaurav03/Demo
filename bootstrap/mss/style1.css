@@ -1,3 +1,18 @@
+/*--------------------------------------------------CSS for image size and height starts-------------------------------------------------------------*/
+/*What we offer*/
+div.wwo
+{
+height: 350px;
+width: 350px;
+}
+
+
+
+/*--------------------------------------------------CSS for image size and height Enss-------------------------------------------------------------*/
+
+
+/*---------------------------------Width and heigths of progress bars code starts---------------------------*/
+
 div.w1
 {
 width: 79%;
@@ -14,10 +29,8 @@ div.w4
 {
 width: 92%
 }
-div.main1
-{
-min-height: 2000px;
-}
+/*---------------------------------Width and heigths of progress bars code Ends---------------------------*/
+/*<!-------------------------Hover effects code starts--------------------->*/
 	div.white
 	{
 		color: rgba(255,25,255,1.0);
@@ -44,7 +57,8 @@ min-height: 2000px;
 	{
 	color: rgba(0,0,255,0.7);
 	}
-/*<!-------------------------Hover effects--------------------->*/
+/*<!-------------------------Hover effects code ends--------------------->*/
+/*-----------------------------------------------------------Rotatinal effects code starts----------------------------------------------------------------*/
 	div.flip3d
 	{
 	width: 150px;
@@ -57,7 +71,7 @@ min-height: 2000px;
 	{
 	position: absolute;
 	transform: perspective( 600px ) rotateY( 0deg );
-	/*background:#FC0; */
+
 		width: 150px;
 	height: 150px;
 	border-radius:100%; 
@@ -72,7 +86,7 @@ min-height: 2000px;
 	{
 	position: absolute;
 	transform: perspective( 600px ) rotateY( 180deg );
-	/*background:#80BFFF; */
+
 		width: 150px;
 	height: 150px;
 	border-radius:100%; 
@@ -105,8 +119,9 @@ min-height: 2000px;
             .b4
     {
     	border: 3px solid rgba(204,0,0,1.0);
+
     }
-/*<!-------------------------Icons part----------------->*/
+/*-----------------------------------------------------------Rotatinal effects code Ends----------------------------------------------------------------*/
 
 
 div.bi
@@ -148,6 +163,11 @@ div.navlower
 {
 color: white;
 background-color: rgba(255,255,255,0.7);
+}
+
+div.main1
+{
+min-height: 2000px;
 }
 /* This is css for upper navigation bar Ends*/
 /*--------------------------------------------------------------------------------------------------------*/

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSMPJ Corporation</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+</head>
+<body>
+	<div id="app">
+	<input type="text" v-on:input="changeTitle">
+     <p>{{ message}}</p>
+	</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+	<script>
+	var obj1=	new Vue({
+			el: '#app',
+			data:
+			{
+				message:'JSMPJ Corporation',
+			},
+			methods:
+			{
+			changeTitle:function(event){
+				this.message=event.target.value;
+			}
+			}
+		});
+	</script>
+</body>
+</html>
