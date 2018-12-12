@@ -149,11 +149,18 @@ color: rgba(255,255,255,0.9);
 /*------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------*/
 /* This is css starting for upper navigation bar */
+div.navupper1
+{
+	
+/*color:white;*/
+background-color: rgba(0,0,0,1.0);
+}
+
 div.navupper
 {
 	
 color:white;
-background-color: rgba(0,0,0,1.0);
+/*background-color: rgba(0,0,0,1.0);*/
 }
 
 /* This is css for upper navigation bar  ends*/
